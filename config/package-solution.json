@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxmerge-client-side-solution",
+    "id": "480a5df9-2c22-4fe0-b4fe-c28be2756077",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfxmerge description"
+      },
+      "longDescription": {
+        "default": "spfxmerge description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfxmerge Feature",
+        "description": "The feature that activates elements of the spfxmerge solution.",
+        "id": "d7aef5e0-9171-4e2c-84b7-2f15a4c58ebf",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxmerge.sppkg"
+  }
+}
